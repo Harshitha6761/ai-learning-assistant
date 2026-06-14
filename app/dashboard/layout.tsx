@@ -1,6 +1,7 @@
 import { getProfileWithRole } from '@/lib/auth';
 import Link from 'next/link';
 import { DashboardClientAuth } from '@/components/DashboardClientAuth';
+import { SignOutButton } from '@/components/SignOutButton';
 
 export default async function DashboardLayout({
   children,
@@ -23,11 +24,7 @@ export default async function DashboardLayout({
             <span className="rounded-md bg-primary-100 px-2.5 py-1 text-xs font-semibold text-primary-800">
               {profile.role}
             </span>
-            <form action="/api/auth/signout" method="post">
-              <button type="submit" className="rounded-lg px-3 py-1.5 text-sm font-medium text-slate-600 hover:bg-slate-100 hover:text-slate-900 transition-colors">
-                Sign out
-              </button>
-            </form>
+            <SignOutButton />
           </nav>
         </div>
         <nav className="mx-auto max-w-6xl px-4 sm:px-6 pb-3 flex flex-wrap items-center gap-1 text-sm">
