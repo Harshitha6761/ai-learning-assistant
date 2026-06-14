@@ -7,3 +7,10 @@ export async function POST(request: NextRequest) {
   res.cookies.set(COOKIE_NAME, '', { maxAge: 0, path: '/' });
   return res;
 }
+
+export async function GET(request: NextRequest) {
+  const url = request.nextUrl.origin || 'http://localhost:3000';
+  const res = NextResponse.redirect(`${url}/`);
+  res.cookies.set(COOKIE_NAME, '', { maxAge: 0, path: '/' });
+  return res;
+}
