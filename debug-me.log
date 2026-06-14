@@ -1,0 +1,14 @@
+{"location":"api/me/route.ts","message":"POST body parsed","data":{"hasAccessToken":true,"hasRefreshToken":true},"hypothesisId":"H4","timestamp":1771748785560}
+{"location":"api/me/route.ts","message":"setSession result","data":{"sessionError":null,"hasSession":true,"hasUser":true},"hypothesisId":"H2","timestamp":1771748785666}
+{"location":"getProfileFromUser","message":"admin upsert","data":{"upsertError":"infinite recursion detected in policy for relation \"profiles\""},"hypothesisId":"H3","timestamp":1771748786053}
+{"location":"getProfileFromUser","message":"select profile","data":{"hasRow":false,"selectError":"infinite recursion detected in policy for relation \"profiles\""},"hypothesisId":"H3","timestamp":1771748786136}
+{"location":"api/me/route.ts","message":"profile result","data":{"profileNull":true},"hypothesisId":"H3","timestamp":1771748786146}
+{"location":"api/me/route.ts","message":"POST body parsed","data":{"hasAccessToken":true,"hasRefreshToken":true},"hypothesisId":"H4","timestamp":1771748819306}
+{"location":"api/me/route.ts","message":"setSession result","data":{"sessionError":null,"hasSession":true,"hasUser":true},"hypothesisId":"H2","timestamp":1771748819417}
+{"location":"getProfileFromUser","message":"admin upsert","data":{"upsertError":"infinite recursion detected in policy for relation \"profiles\""},"hypothesisId":"H3","timestamp":1771748819548}
+{"location":"getProfileFromUser","message":"select profile","data":{"hasRow":false,"selectError":"infinite recursion detected in policy for relation \"profiles\""},"hypothesisId":"H3","timestamp":1771748819605}
+{"location":"api/me/route.ts","message":"profile result","data":{"profileNull":true},"hypothesisId":"H3","timestamp":1771748819606}
+{"location":"api/me/route.ts","message":"POST body parsed","data":{"hasAccessToken":true,"hasRefreshToken":true},"hypothesisId":"H4","timestamp":1771748996243}
+{"location":"api/me/route.ts","message":"setSession result","data":{"sessionError":null,"hasSession":true,"hasUser":true},"hypothesisId":"H2","timestamp":1771748996337}
+{"location":"getProfileFromUser","message":"select profile","data":{"hasRow":false,"selectError":"infinite recursion detected in policy for relation \"profiles\""},"hypothesisId":"H3","timestamp":1771748997172}
+{"location":"api/me/route.ts","message":"profile result","data":{"profileNull":true},"hypothesisId":"H3","timestamp":1771748997173}
